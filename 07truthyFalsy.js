@@ -1,0 +1,24 @@
+Boolean();
+false
+Boolean(0);
+false
+Boolean(1);
+true
+Boolean(false);
+false
+Boolean(null);
+false
+Boolean(NaN);
+false
+Boolean("");
+false
+Boolean(" ");
+true
+Boolean([]);
+true
+Boolean(undefined);
+false
+Boolean(function(){});
+true
+Boolean(true);
+true
