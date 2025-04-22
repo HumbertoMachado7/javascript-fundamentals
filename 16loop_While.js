@@ -14,15 +14,17 @@
 
  /*
 
- (3) ['Sergio', 'Rosa', 'Daniel']
+
+(4) ['Maria', 'Sergio', 'Rosa', 'Daniel']
+(3) ['Sergio', 'Rosa', 'Daniel']
 Hola, Maria
-
-(2) ['Rosa', 'Daniel']
+(3) ['Sergio', 'Rosa', 'Daniel']
+(2) ['Rosa', 'Daniel']
 Hola, Sergio
-
+(2) ['Rosa', 'Daniel']
 ['Daniel']
 Hola, Rosa
-
+['Daniel']
 []
 Hola, Daniel
 
