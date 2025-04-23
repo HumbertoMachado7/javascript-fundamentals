@@ -13,7 +13,7 @@ function Auto(marca, modelo, annio) {
   const anioInicial = 2015;
   const anioFinal = 2024;
   
-  // --- Almacenamiento para los Autos Creados ---
+  // --- Almacenamiento para los Autos Creados ---300
   // Usaremos un array para guardar todos los objetos 'Auto' que creemos
   let flotaDeAutos = []; // Un array vacío para empezar
   
