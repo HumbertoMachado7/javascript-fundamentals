@@ -53,3 +53,15 @@ function Auto(marca, modelo, annio) {
   console.log("Marca:", flotaDeAutos[9].marca); // Índice 9 para el décimo auto
   console.log("Modelo:", flotaDeAutos[9].modelo);
   console.log("Año:", flotaDeAutos[9].annio);
+
+  /*
+
+Para ver otros autos del mismo modo que el primero
+
+var valor = 1  // aqui cambio del numero de auto.
+console.log ("Auto numero ",valor);
+console.log ("Marca",flotaDeAutos[valor].marca);
+console.log ("Modelo: ",flotaDeAutos[valor].modelo);
+console.log ("Annio: ", flotaDeAutos[valor].annio);
+
+  */
