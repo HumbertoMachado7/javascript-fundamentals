@@ -7,6 +7,13 @@ var miAuto = {
     }
 };
 
+/*
+
 miAuto.marca // "Toyota"
 miAuto.annio // 2025
 miAuto.detalleDelAuto();  // Aut0 Corolla 2020
+
+*/
+
+// Exportamos el objeto para que las pruebas puedan importarlo
+module.exports = miAuto;

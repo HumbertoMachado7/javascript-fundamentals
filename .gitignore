@@ -1,2 +1,36 @@
-
+# Archivos generados por herramientas (manteniendo tu línea original)
 .codegpt
+
+# Dependencias de Node.js - ¡IGNORAR SIEMPRE!
+# Esta carpeta contiene todos los paquetes descargados por npm/yarn.
+# Se puede regenerar ejecutando 'npm install'.
+node_modules/
+
+# Logs
+# Archivos de registro generados por aplicaciones o herramientas.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Archivos temporales y de caché del sistema operativo
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Archivos de configuración específicos del editor/IDE (Ejemplo para VSCode)
+# Descomenta la siguiente línea si guardas configuraciones de workspace
+# en .vscode/ pero no quieres subirlas al repositorio compartido.
+# .vscode/
+
+# Archivos de build o distribución (si los tuvieras más adelante)
+# dist/
+# build/
+
+# Archivos de variables de entorno (¡NUNCA SUBIR SECRETOS!)
+# .env
+# *.env
