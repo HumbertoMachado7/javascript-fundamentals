@@ -1,33 +1,14 @@
+// 21metodos_Recorrido_Arrays.js - Versión CORRECTA para Testing
+
 var articulos = [
-    {nombre: "Bici", costo: 3000},
-    {nombre: "TV", costo: 2500},
-    {nombre: "Libro", costo: 320},
-    {nombre: "Celular", costo: 10000},
-    {nombre: "Laptop", costo: 20000},
-    {nombre: "Teclado", costo: 500},
-    {nombre: "Audifonos", costo: 1700},
+    { nombre: "Bici", costo: 3000 },
+    { nombre: "TV", costo: 2500 },
+    { nombre: "Libro", costo: 320 },
+    { nombre: "Celular", costo: 10000 },
+    { nombre: "Laptop", costo: 20000 },
+    { nombre: "Teclado", costo: 500 },
+    { nombre: "Audifonos", costo: 1700 },
 ];
 
-var articulosFiltrados = articulos.filter(function(articulo){
-    return articulo.costo <= 500;
-});
-
-var nombreArticulos = articulos.map(function(articulo){
-    return articulo.nombre
-});
-
-console.log (articulosFiltrados); 
-// (2) [{…}, {…}]
-// 0: {nombre: 'Libro', costo: 320}
-// 1: {nombre: 'Teclado', costo: 500}
-
-console.log(nombreArticulos); /* 
-(7) ['Bici', 'TV', 'Libro', 'Celular', 'Laptop', 'Teclado', 'Audifonos']
-0:""Bici"
-1: "TV"
-2: "Libro"
-3: "Celular"
-4: "Laptop"
-5: "Teclado"
-6: "Audifonos"
-*/
+// Exportamos el array de datos para usarlo en las pruebas
+module.exports = articulos;
