@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # Ignore sensitive files
-Token.txt.txt
+Token.txt
