@@ -33,7 +33,7 @@ Explore the core concepts by clicking on the links below. Each link opens the co
 23. [`20funcion_Constructora.js`](./20funcion_Constructora.js): Further example/practice with constructor functions.
 24. [`20funcion_Constructora.test.js`](./20funcion_Constructora.test.js): Tests for constructor functions.
 25. [`21metodos_Recorrido_Arrays.js`](./21metodos_Recorrido_Arrays.js): Using array iteration methods (map, filter, reduce, etc.).
-26. [`21metodos_Recorrido_Arrays.test.js`](./21metodos_Recorrido_Arrays.test.js): Tests for array iteration methods.
+26. [`21metodos_Recorrido_Arrays.test.js`](./21metodos_RecorridoArrays.test.js): Tests for array iteration methods.
 27. [`22ejercicio1.js`](./22ejercicio1.js): General exercise file 1.
 
 *(Note: The list above covers the main exercise and test files. Configuration files like `package.json` and `package-lock.json`, if present in the repository, are typically not included in this type of topic list.)*
